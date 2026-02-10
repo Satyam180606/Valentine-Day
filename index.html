@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card entrance" id="main-card">
+      <div class="card-img">
+        <!-- Cute cat GIF -->
+        <img src="love-you-cat.gif" alt="Cute cat holding 'Love you' sign (looping GIF)" style="width:120px;height:auto;max-width:100%;border-radius:1.2rem;box-shadow:0 2px 8px #ffd1dc55;" loading="eager" />
+      </div>
+      <div class="card-text">Do you love me?</div>
+      <div class="card-actions">
+        <button class="btn yes" id="yes-btn">Yes</button>
+        <button class="btn no" id="no-btn">No</button>
+      </div>
+    </div>
+    <div class="card entrance" id="result-card" style="display:none;">
+      <div class="card-img">
+        <!-- Bear with hearts GIF -->
+        <img src="bear-hearts.gif" alt="Cute bear with floating hearts GIF" style="width:120px;height:auto;max-width:100%;border-radius:1.2rem;box-shadow:0 2px 8px #ffd1dc55;" loading="eager" />
+      </div>
+      <div class="result-content">
+        <div class="result-heading">I knew you’d say YES <span style="font-size:1.5em;vertical-align:middle;">😍</span></div>
+        <div class="result-subtext">You don’t even realize how special you are to me <span style="font-size:1.2em;">👋</span></div>
+        <div class="result-subtext" style="margin-bottom:1.5em;">My world feels warmer, brighter, and happier because of you <span style="font-size:1.2em;">❤️</span></div>
+        <button class="btn next-btn" id="next-btn">Next <span style="font-size:1.1em;">💕</span></button>
+      </div>
+      <div id="hearts"></div>
+    </div>
+    <div class="card entrance" id="reasons-card" style="display:none;">
+      <div class="reasons-heading">Reasons Why I Love You <span style="font-size:1.1em;vertical-align:middle;">💕</span></div>
+      <div class="reasons-list">
+        <div class="reason reason-main">💖 Your beautiful smile</div>
+        <div class="reason">🌸 Your kindness and care</div>
+        <div class="reason">🦄 You understand me deeply</div>
+        <div class="reason">🏡 You’re my safe place</div>
+        <div class="reason">✨ You make life magical</div>
+      </div>
+      <button class="btn hug-btn" id="hug-btn">One Hug? <span style="font-size:1.1em;">🤗</span></button>
+    </div>
+    <div class="card entrance" id="promise-card" style="display:none;">
+      <div class="promise-img">
+        <img src="valentine-promise.gif" alt="Valentine Promise GIF" style="width:140px;height:auto;max-width:100%;border-radius:1.2rem;box-shadow:0 2px 12px #ffd1dc55;background:#fff;" loading="eager" />
+      </div>
+      <div class="promise-heading">My Valentine Promise</div>
+      <div class="promise-emoji">💝</div>
+      <div class="promise-text">
+        I promise to care for you,<br>
+        to make you smile even on hard days,<br>
+        and to love you more with every heartbeat <span style="font-size:1.1em;">❤️</span>
+      </div>
+      <button class="btn final-btn" id="final-btn">Final Surprise <span style="font-size:1.1em;">🎁</span></button>
+    </div>
+    <div class="card entrance" id="surprise-card" style="display:none;">
+      <div class="surprise-heading">Happy Valentine's Day</div>
+      <div class="carousel-container">
+        <div class="carousel" id="carousel">
+          <div class="carousel-item"><img src="surprise-1.gif" alt="Surprise 1" /></div>
+          <div class="carousel-item"><img src="surprise-2.gif" alt="Surprise 2" /></div>
+          <div class="carousel-item"><img src="surprise-3.gif" alt="Surprise 3" /></div>
+          <div class="carousel-item"><img src="surprise-4.gif" alt="Surprise 4" /></div>
+          <div class="carousel-item"><img src="surprise-5.gif" alt="Surprise 5" /></div>
+          <div class="carousel-item"><img src="surprise-6.gif" alt="Surprise 6" /></div>
+        </div>
+      </div>
+      <div class="surprise-text">I Love You <span style="color:#FF6F91;">❤️</span></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
